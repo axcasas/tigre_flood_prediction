@@ -26,28 +26,28 @@ Finally, we developed an application using Streamlit to study which variables ar
 .
 ├── README.md
 ├── data
-│   ├── raw            <- Origin data.
-│   ├── preprocessed   <- Data with some transformations.
-│   └── featurized     <- Final data used for the model.
-├── notebooks          <- Jupyter notebooks for data analysis, machine learning, and scraping demonstrations.
+│ ├── raw <- Origin data.
+│ ├── preprocessed <- Data with some transformations.
+│ └── featurized <- Final data used for the model.
+├── notebooks <- Jupyter notebooks for data analysis, machine learning, and scraping demonstrations.
 └── tigre_flood_prediction
-    ├── core           <- Streamlit App.
-    ├── models         <- Machine Learning Models Python Scripts and in Pickle format.
-    └── process        <- Feature engineering python script.
-    └── utils
-        ├── scrapper   <- 2 python scripts used to scrap weather and tide data
-        ├── tigre_municipio.png  
+├── core <- Streamlit App.
+├── models <- Machine Learning Models Python Scripts and in Pickle format.
+└── process <- Feature engineering python script.
+└── utils
+├── scrapper <- 2 python scripts used to scrap weather and tide data
+├── tigre_municipio.png
 
 Requirements 
 ===
 
 Python version > 3.10
 
-pandas: 2.2.1
-numpy: 1.26.4
-streamlit: 1.32.2
-sklearn: Not found
-pickle: Not found
-selenium: 4.18.1
-beautifulsoup: 4.12.3
-requests: 2.31.0
+- pandas: 2.2.1
+- numpy: 1.26.4
+- streamlit: 1.32.2
+- sklearn: Not found
+- pickle: Not found
+- selenium: 4.18.1
+- beautifulsoup: 4.12.3
+- requests: 2.31.0
