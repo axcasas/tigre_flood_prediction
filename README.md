@@ -23,7 +23,7 @@ Finally, we developed an application using Streamlit to study which variables ar
 ## About This Repository
 ===
 
-.
+```
 ├── README.md
 ├── data
 │ ├── raw <- Origin data.
@@ -37,6 +37,7 @@ Finally, we developed an application using Streamlit to study which variables ar
 └── utils
 ├── scrapper <- 2 python scripts used to scrap weather and tide data
 ├── tigre_municipio.png
+```
 
 Requirements 
 ===
