@@ -2,17 +2,17 @@
 
 About This Project
 ==
-People in areas like Tigre, the Paraná delta and more have a problem: **they are victims of frequent flooding**. 
+People in areas like Tigre, the Paraná delta, and more have a problem: **they are victims of frequent flooding**. 
 
-In some periors, the level of the river is continually rising, and the flooding of the Paraná can coincide with "*sudestadas*", which directly affects the delta and leaves it trapped due to the "hydraulic plug effect" of the river. However, what affects them most is the intense private suburbanization. 
+In some periods, the level of the river is continually rising, and the flooding of the Paraná can coincide with "*sudestadas*", which directly affects the delta and leaves it trapped due to the "hydraulic plug effect" of the river. However, what affects them most is the intense private suburbanization. 
 
 Neighbors usually find out about river flooding through social networks and WhatsApp messages. **People go to information and not information to people**. This dynamic is not efficient or effective and can leave people on the sidelines. 
 
-Our goal is to reverse this. We seek to ensure that all people who may be potentially affected by floods can be aware of them in a timely manner, thus allowing them to plan their days accordingly.
+Our goal is to reverse this. We seek to ensure that all people who may be potentially affected by floods can be aware of them promptly, thus allowing them to plan their days accordingly.
 
-In order to do this, we constructed a dataset with climatic, tidal, and alert variables from Tigre's government to predict using Machine Learning models when Tigre will have an alert of flood. 
+To do this, we constructed a dataset with climatic, tidal, and alert variables from Tigre's government to predict using Machine Learning models when Tigre will have an alert of the flood. 
 
-Finally, we developed an application using Streamlit to study which variables are more relevant for the flood prediction.
+Finally, we developed an application using Streamlit to study which variables are more relevant for flood prediction.
 
 ## Objectives
 
@@ -25,18 +25,22 @@ Finally, we developed an application using Streamlit to study which variables ar
 
 ```
 ├── README.md
+|
 ├── data
-│ ├── raw <- Origin data.
-│ ├── preprocessed <- Data with some transformations.
-│ └── featurized <- Final data used for the model.
+   ├── raw <- Origin data.
+   ├── preprocessed <- Data with some transformations.
+   └── featurized <- Final data used for the model.
+|
 ├── notebooks <- Jupyter notebooks for data analysis, machine learning, and scraping demonstrations.
+|
 └── tigre_flood_prediction
-├── core <- Streamlit App.
-├── models <- Machine Learning Models Python Scripts and in Pickle format.
-└── process <- Feature engineering python script.
+|   ├── core <- Streamlit App.
+|   ├── models <- Machine Learning Models Python Scripts and in Pickle format.
+|   ├── process <- Feature engineering python script.
+|
 └── utils
-├── scrapper <- 2 python scripts used to scrap weather and tide data
-├── tigre_municipio.png
+     ├── scrapper <- 2 python scripts used to scrap weather and tide data
+     ├── tigre_municipio.png
 ```
 
 Requirements 
