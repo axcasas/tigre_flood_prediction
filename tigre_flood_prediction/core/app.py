@@ -4,7 +4,6 @@ sys.path.append('tigre_flood_prediction/models')
 import streamlit as st 
 import pandas as pd
 import numpy as np
-import plotly.graph_objects as go
 import pickle5 as pickle
 from logistic_regression import clean_and_encode_data_lr, create_logistic_regression_model, main_lr
 from random_forest import clean_and_encode_data_rf, create_random_forest_model, main_rf
